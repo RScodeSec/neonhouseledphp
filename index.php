@@ -425,9 +425,10 @@
 
         <h2 class="ubicanos__titulo titulo">UBÍCANOS</h2>
 
-        <iframe class="ubicanos__map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344.8735326589209!2d-77.02562462910566!3d-12.057372695863704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89ce2c672f2aa0c!2sNeon%20House%20Led!5e0!3m2!1ses!2spe!4v1611855698005!5m2!1ses!2spe"
-            width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <figure class="mapa">
+            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" target="_blank"><img class="mapa__img" src="../public/imagenes/as.jpg"  alt=""></a>
+        </figure>
+ 
 
     </div>
 
