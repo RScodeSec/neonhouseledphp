@@ -19,11 +19,9 @@
             <h1>Proyectos destacados</h1>
             <div class="pry-dest-video">
                 <figure class="video-container">
-                    <div class="flexible-video">
-                        <iframe class="youtube-video" src="https://www.youtube.com/embed/eklZLdBx9WE" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
+                        <a href="https://www.youtube.com/watch?v=eklZLdBx9WE&ab_channel=NEONHOUSELED" target="_blank">
+                            <img src="../public/imagenes/proyectos/video_pry.jpg" alt="">
+                        </a>
                 </figure>
             </div>
             <p>"Tendencia, vanguardia y novedades"</p>
@@ -33,7 +31,7 @@
             <div class="pry-nuevos-desc">
                 <article class="pry">
                     <figure class="img-container">
-                        <a href="https://youtu.be/qU08CNcnQhA">
+                        <a href="https://youtu.be/qU08CNcnQhA" target="_blank">
                             <img src="../public/imagenes/proyectos/1.webp" alt="">
                         </a>
                     </figure>
@@ -43,7 +41,7 @@
 
                 <article class="pry">
                     <figure class="img-container">
-                        <a href="https://youtu.be/3QMkxPf7H3U">
+                        <a href="https://youtu.be/3QMkxPf7H3U" target="_blank">
                             <img src="../public/imagenes/proyectos/2.webp" alt="">
                         </a>
                     </figure>

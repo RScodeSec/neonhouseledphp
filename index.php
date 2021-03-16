@@ -100,11 +100,9 @@
         <h2 class="about-us-title">¿Quiénes somos?</h2>
         <div class="about-us-content">
             <figure class="video-container">
-                <div class="flexible-video">
-                    <iframe class="youtube-video" src="https://www.youtube.com/embed/NnkbMaaskLY" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+                <a href="https://www.youtube.com/watch?v=NnkbMaaskLY&ab_channel=NEONHOUSELED" target="_blank">
+                    <img src="public/imagenes/index/video_index.jpg" alt="">
+                </a>
             </figure>
             <div class="description-container">
                 <p>Somos Neon House Led empresa dedicada a la decoración y diseño de interiores así como la fabricación,
