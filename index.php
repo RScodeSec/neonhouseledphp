@@ -83,11 +83,11 @@
                 </figure>
                 <!-- Slider 3 -->
                 <figure class="img-container">
-                    <img src="public/imagenes/index/sliders/slider3.webp" alt="">
+                    <img data-src="public/imagenes/index/sliders/slider3.webp" class="lazyload" alt="">
                 </figure>
                 <!-- Slider 4 -->
                 <figure class="img-container">
-                    <img src="public/imagenes/index/sliders/slider4.webp" alt="">
+                    <img data-src="public/imagenes/index/sliders/slider4.webp" class="lazyload" alt="">
                 </figure>
             </div>
         </article>
@@ -468,7 +468,7 @@
 
         <div class="ultimo">
             <a class="boton_final"href="admin/index.php">
-                <img class="imagen_final" border="0" alt="W3Schools" src="public/imagenes/lupa.webp" width="219px" height="100px">
+                <img class="imagen_final" border="0" alt="neon" src="public/imagenes/lupa.webp" width="219px" height="100px">
             </a>
         </div>
 
@@ -487,9 +487,10 @@
         
 
     </footer>
-    <script type="text/javascript" src="https://kit.fontawesome.com/c702fce202.js" crossorigin="anonymous"></script>
+    <!--<script type="text/javascript" src="https://kit.fontawesome.com/c702fce202.js" crossorigin="anonymous"></script>-->
     <script type="text/javascript" src="public/js/menu.js"></script>
     <script type="text/javascript" src="public/js/categoria.js"></script>
+    <script src="public/js/lazysizes.min.js" async></script>
 
 </body>
 

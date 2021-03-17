@@ -33,7 +33,7 @@
 
     })
     file = file.data('dropify');
-</script>
+    </script>
 
     <!-- Page level plugins -->
     <!--<script src="public/vendor/chart.js/Chart.min.js"></script>-->
