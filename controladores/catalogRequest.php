@@ -11,7 +11,7 @@ if ($_POST["option"]=="calatogrequest") {
         echo "<script>
             alert('Todos los campos no han sido rellenados o datos erroneos.');location.href ='javascript:history.back()';</script>";
 
-    }else{
+    }else{ 
         require '../public/mailer/PHPMailerAutoload.php';
         require '../public/mailer/class.phpmailer.php';
         require '../public/mailer/class.smtp.php';
