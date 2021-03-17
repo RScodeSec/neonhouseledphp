@@ -215,6 +215,12 @@ background-color:#F5F5F5 ;
 } */
 
 
+.mapa{padding: 2rem 0;}
+.mapa__link{display: block;}
+.mapa__img{
+    width: 100%;
+    display: block;
+}
 
 
 
@@ -266,6 +272,10 @@ margin-left: auto;
 
 
 @media screen and (min-width:945px) {
+    .mapa{
+        width: 70%;
+        margin: 0 auto;
+    }
 
     .overlay {
         pointer-events: none;

@@ -100,11 +100,9 @@
         <h2 class="about-us-title">¿Quiénes somos?</h2>
         <div class="about-us-content">
             <figure class="video-container">
-                <div class="flexible-video">
-                    <iframe class="youtube-video" src="https://www.youtube.com/embed/NnkbMaaskLY" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+                <a href="https://www.youtube.com/watch?v=NnkbMaaskLY&ab_channel=NEONHOUSELED" target="_blank">
+                    <img src="public/imagenes/index/video_index.jpg" alt="">
+                </a>
             </figure>
             <div class="description-container">
                 <p>Somos Neon House Led empresa dedicada a la decoración y diseño de interiores así como la fabricación,
@@ -425,9 +423,10 @@
 
         <h2 class="ubicanos__titulo titulo">UBÍCANOS</h2>
 
-        <iframe class="ubicanos__map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344.8735326589209!2d-77.02562462910566!3d-12.057372695863704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89ce2c672f2aa0c!2sNeon%20House%20Led!5e0!3m2!1ses!2spe!4v1611855698005!5m2!1ses!2spe"
-            width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <figure class="mapa">
+            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" target="_blank"><img class="mapa__img" src="../public/imagenes/as.jpg"  alt=""></a>
+        </figure>
+ 
 
     </div>
 
@@ -473,11 +472,11 @@
         </div>
 
         <div class="sociales">
-            <a class="sociales__item" href="https://www.instagram.com/neon_led_store/"><i class="fab fa-instagram-square"></i></a>
-            <a class="sociales__item" href="https://www.facebook.com/nhldecoracioncomercial"> <i class="fab fa-facebook"></i></a>
-            <a class="sociales__item" href="https://www.youtube.com/user/NEONHOUSELEDS"> <i class="fab fa-youtube"></i></a>
-            <a class="sociales__item" href="https://twitter.com/NEONHOUSELEDS"><i class="fab fa-twitter-square"></i></a>
-            <a class="sociales__item" href="https://www.linkedin.com/in/neonhouseled/"><i class="fab fa-invision"></i></a>
+            <a class="sociales__item" target="_blank" href="https://www.instagram.com/neon_led_store/"><i class="fab fa-instagram-square"></i></a>
+            <a class="sociales__item" target="_blank" href="https://www.facebook.com/nhldecoracioncomercial"> <i class="fab fa-facebook"></i></a>
+            <a class="sociales__item"  target="_blank" href="https://www.youtube.com/user/NEONHOUSELEDS"> <i class="fab fa-youtube"></i></a>
+            <a class="sociales__item" target="_blank" href="https://twitter.com/NEONHOUSELEDS"><i class="fab fa-twitter-square"></i></a>
+            <a class="sociales__item" target="_blank" href="https://www.linkedin.com/in/neonhouseled/"><i class="fab fa-invision"></i></a>
 
             
 

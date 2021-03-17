@@ -4,13 +4,16 @@ footer {
     position: relative;
 }
 .ultimo{
+    overflow: hidden;
     width: 38%;
     margin: auto;
     /* background-color: hsl(216deg, 85%, 34%); */
     transition: background-color .5s;
     border-radius: 50%;
+    
 }
 .ultimo:hover{
+
     background-color:rgba(21, 89, 190,.5);
 }
 .boton_final{
@@ -22,9 +25,15 @@ footer {
     overflow: hidden;
 }
 .imagen_final{
+    transform: scale(.8);
     width: 100%;
     height: 100%;
     display: block;
+    transition:transform 3 ;
+    
+}
+.ultimo:hover .imagen_final{
+    transform: scale(1.1);
 }
 @media screen and (min-width:945px) {
     
