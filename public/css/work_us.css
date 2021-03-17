@@ -8,7 +8,7 @@ input[type=number]::-webkit-outer-spin-button {
 .hero_container{
     width: 100%;
     height: 300px;
-    background-image: url('../imagenes/work_us/hero3.jpg');
+    background-image: url('../imagenes/work_us/hero3.webp');
     background-position: 0% 65%;
     background-repeat: no-repeat;
     background-size: cover;

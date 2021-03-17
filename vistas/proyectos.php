@@ -20,7 +20,7 @@
             <div class="pry-dest-video">
                 <figure class="video-container">
                         <a href="https://www.youtube.com/watch?v=eklZLdBx9WE&ab_channel=NEONHOUSELED" target="_blank">
-                            <img src="../public/imagenes/proyectos/video_pry.jpg" alt="">
+                            <img src="../public/imagenes/proyectos/video_pry.webp" alt="">
                         </a>
                 </figure>
             </div>

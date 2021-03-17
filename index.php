@@ -101,7 +101,7 @@
         <div class="about-us-content">
             <figure class="video-container">
                 <a href="https://www.youtube.com/watch?v=NnkbMaaskLY&ab_channel=NEONHOUSELED" target="_blank">
-                    <img src="public/imagenes/index/video_index.jpg" alt="">
+                    <img src="public/imagenes/index/video_index.webp" alt="">
                 </a>
             </figure>
             <div class="description-container">
@@ -424,7 +424,7 @@
         <h2 class="ubicanos__titulo titulo">UBÍCANOS</h2>
 
         <figure class="mapa">
-            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" target="_blank"><img class="mapa__img" src="../public/imagenes/as.jpg"  alt=""></a>
+            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" target="_blank"><img class="mapa__img" src="public/imagenes/as.webp"  alt=""></a>
         </figure>
  
 
@@ -486,9 +486,9 @@
         
 
     </footer>
-    <!--<script type="text/javascript" src="https://kit.fontawesome.com/c702fce202.js" crossorigin="anonymous"></script>-->
-    <script type="text/javascript" src="public/js/menu.js"></script>
-    <script type="text/javascript" src="public/js/categoria.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/c702fce202.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"  src="public/js/menu.js"></script>
+    <script type="text/javascript"  src="public/js/categoria.js"></script>
     <script src="public/js/lazysizes.min.js" async></script>
 
 </body>
