@@ -1,5 +1,10 @@
 $(function () {
 	let tableProd = $("#productosTabla").DataTable({
+        //Agregando lengauaje español
+        "language": {
+            "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
+        },
+        //
 		scrollX: false,
 		dom: '<"header__main"<"search"f>>t<"header__main"ip>',
 		lengthChange: false,
@@ -18,14 +23,14 @@ $(function () {
 		columnDefs: [
 			{
 				defaultContent:
-					'<button class="eliminar_b"><i class="fas fa-trash-alt eliminar"></i></button>',
+					'<button class="eliminar_b table-d"><i class="fas fa-trash-alt eliminar"></i></button>',
 				targets: -1,
 			},
 			{
 				data: null,
 				targets: -2,
 				defaultContent:
-					'<button class="editar_b"><i class="fas fa-edit editar"></i></button>',
+					'<button class="editar_b table-e"><i class="fas fa-edit editar"></i></button>',
 			},
 		],
 	});

@@ -22,7 +22,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="../public/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../public/css/sb-admin-2.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.min.css" integrity="sha512-EZSUkJWTjzDlspOoPSpUFR0o0Xy7jdzW//6qhUkoZ9c4StFkVsp9fbbd0O06p9ELS3H486m4wmrCELjza4JEog==" crossorigin="anonymous" />
     <link href="../public/css/gallery.css" rel="stylesheet">
 
@@ -187,7 +187,7 @@
                         
 
                         <div class="topbar-divider d-none d-sm-block"></div>
-                        <a href="../controller/userController.php?action=logout" class="btn btn-info btn-lg">
+                        <a href="../controller/userController.php?action=logout" class="btn btnSalir">
                             <span class="glyphicon glyphicon-log-out"></span> Cerrar Sesion
                         </a>
 

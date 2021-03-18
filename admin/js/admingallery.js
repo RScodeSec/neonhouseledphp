@@ -4,6 +4,9 @@ dep.load("../controller/userController.php?action=showuser");
 //------------------------------------------------------------
 $(function () {
 	let tableProd = $("#galeria").DataTable({
+        "language": {
+            "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
+        },
 		scrollX: false,
 		dom: '<"header__main"<"search"f>>t<"header__main"ip>',
 		lengthChange: false,
@@ -18,6 +21,7 @@ $(function () {
 			{ data: "descripcion" },
 			{ data: null },
 		],
+        
 		columnDefs: [
             {
                 "targets": -3,
@@ -29,7 +33,7 @@ $(function () {
 
 			{
 				defaultContent:
-					'<button class="eliminar_b1"><i class="fas fa-trash-alt eliminar"></i></button>',
+					'<button class="eliminar_b1 table-d"><i class="fas fa-trash-alt eliminar"></i></button>',
 				targets: -1,
 			},
 		],
@@ -106,7 +110,7 @@ let identgallery = $("#identgallery").val();
 let urlProds =
 	"../controller/userController.php?action=showGalleryForClient&identgallery=" + identgallery;
 $("#products-container").load(urlProds, { type: "article" }, function () {
-
+    
 
 });
 
