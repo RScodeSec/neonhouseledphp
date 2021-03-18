@@ -21,7 +21,6 @@ $(function () {
 			{ data: "descripcion" },
 			{ data: null },
 		],
-        
 		columnDefs: [
             {
                 "targets": -3,
@@ -120,7 +119,7 @@ let identgallery = $("#identgallery").val();
 let urlProds =
 	"../controller/userController.php?action=showGalleryForClient&identgallery=" + identgallery;
 $("#products-container").load(urlProds, { type: "article" }, function () {
-    
+
 
 });
 
