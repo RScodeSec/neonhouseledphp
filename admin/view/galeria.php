@@ -23,7 +23,7 @@ if(isset($_SESSION['rol'])){
 require_once "layout/header.php"; ?>
 
 <div class="container">
-    <h2> Galeria</h2>
+    <h2> Zona de Administracion de Galerias</h2>
 </div>
 <div class="container">
         <div class="row">

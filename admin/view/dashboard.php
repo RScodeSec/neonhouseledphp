@@ -26,7 +26,7 @@ require_once "layout/header.php";
     <div class="row">
         <div class="col-lg-12">
             <h1> Bienvenido <?php echo  $_SESSION['username'];?></h1>
-            <h2>Administracion de Usuarios</h2>
+            <h2>Zona de Administracion de Usuarios</h2>
         </div>
     </div>
 </div>
@@ -87,7 +87,7 @@ require_once "layout/header.php";
                         <select id ="leveluser" class="form-select form-select-lg mb-3 gga" >
                             <option value="1">Admin</option>
                             <option value="2">Cliente</option>
-                            <option value="3">General</option>
+                            <option value="3">Gestion</option>
                         </select>                    
                 </div>
                 <div class="form-group">
