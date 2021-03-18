@@ -1,16 +1,8 @@
 $(function () {
 	let tableProd = $("#productosTabla").DataTable({
-<<<<<<< HEAD
         "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
         },
-=======
-        //Agregando lengauaje español
-        "language": {
-            "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
-        },
-        //
->>>>>>> 5d69113e283b3a185dcbde5b6da2cd2921866774
 		scrollX: false,
 		dom: '<"header__main"<"search"f>>t<"header__main"ip>',
 		lengthChange: false,

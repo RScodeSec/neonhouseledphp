@@ -1,7 +1,6 @@
 .container {
   width: 100%;
   color: #2c3e50;
-<<<<<<< HEAD
 }
 .container h2{
   font-weight: 300;
@@ -70,76 +69,6 @@
   color: #fff;
   border-radius: 1px;
 }
-=======
-}
-.container h2{
-  font-weight: 300;
-}
-.btnSalir{
-  margin: auto;
-  font-size: 15px;
-  max-width: 180px;
-  padding: 8px;
-  max-height: 50px;
-  background-color: #4167D5;
-  color: #fff;
-}
-.btnSalir:hover{
-  cursor: pointer;
-  color: #fff;
-  box-shadow: 5px 8px 10px rgba(52, 73, 94,0.2);
-}
-/* VISTA DASHBOARD  */
-.panel{
-  width: 90%;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 5px;
-}
-.panel-t{
-  text-align: start;
-}
-.panel-t h1{
-  font-size: 28px;
-  font-weight: 400;
-  color: rgba(44, 62, 80,1.0);
-}
-.panel-t h2{
-  font-size: 24px;
-  font-weight: 400;
-  color: rgba(44, 62, 80,0.7);
-}
-.table-h{
-  color: #2c3e50;
-}
-/* VISTA MODAL */
-.modal-t{
-  background-color: #4167D5 ;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10px;
-  text-align: center;
-  color: #fff;
-}
-.modal-c{
-  background-color: #000;
-  right:0;
-  padding:10px;
-}
-.modal-c span>i{
-  font-size: 30px;
-}
-.modal-c span:hover{
-  cursor: pointer;
-  color: #c0392b;
-}
-/* VISTA TABLA */
-.table-d{
-  background-color:#bd081c;
-  color: #fff;
-  border-radius: 1px;
-}
->>>>>>> 5d69113e283b3a185dcbde5b6da2cd2921866774
 .table-d:hover{
   border: 1px solid #bd081c;
   cursor: pointer;

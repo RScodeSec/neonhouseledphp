@@ -22,15 +22,10 @@ if(isset($_SESSION['rol'])){
  }
 require_once "layout/header.php"; ?>
 
-<<<<<<< HEAD
 <div class="container">
     <h2> Zona de Administracion de Galerias</h2>
 </div>
 <div class="container">
-=======
-<div class="container panel col-md-12">
-    <h2> Galeria</h2>
->>>>>>> 5d69113e283b3a185dcbde5b6da2cd2921866774
         <div class="row">
             <div class="col-lg-12">            
             <button id="btnNuevo1" type="button" class="btn btnSalir" data-toggle="modal">Agregar Imagen</button>    

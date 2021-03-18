@@ -22,21 +22,11 @@ if(isset($_SESSION['rol'])){
  }
 require_once "layout/header.php";
 ?>
-<<<<<<< HEAD
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
             <h1> Bienvenido <?php echo  $_SESSION['username'];?></h1>
             <h2>Zona de Administracion de Usuarios</h2>
-=======
-
-    <div class="container panel col-md-12">
-        <div class="row">
-            <div class="col-lg-12 panel-t">
-                <h1> Bienvenido <?php echo  $_SESSION['username'];?></h1>
-                <h2>Administracion de Usuarios</h2>
-            </div>
->>>>>>> 5d69113e283b3a185dcbde5b6da2cd2921866774
         </div>
     </div>
     <br>
@@ -90,7 +80,6 @@ require_once "layout/header.php";
                     <input type="password" class="form-control" id="password" required>
                     </div> 
 
-<<<<<<< HEAD
                 <div class="form-group">
                     <label for="gga" class="col-form-label">Nivel de Usuario:</label>
                     <br>
@@ -99,25 +88,6 @@ require_once "layout/header.php";
                             <option value="2">Cliente</option>
                             <option value="3">Gestion</option>
                         </select>                    
-=======
-                    <div class="form-group">
-                        <label for="gga" class="col-form-label">Nivel de Usuario:</label>
-                        <br>
-                            <select id ="leveluser" class="form-select form-select-lg mb-3 gga" >
-                                <option value="1">Admin</option>
-                                <option value="2">Cliente</option>
-                                <option value="3">General</option>
-                            </select>                    
-                    </div>
-                    <div class="form-group">
-                    <label for="name" class="col-form-label">Nombres</label>
-                    <input type="text" class="form-control" id="name" required>
-                    </div>
-                    <div class="form-group">
-                    <label for="phone" class="col-form-label">Celular</label>
-                    <input type="text" class="form-control" id="phone" required>
-                    </div>             
->>>>>>> 5d69113e283b3a185dcbde5b6da2cd2921866774
                 </div>
                 <div class="modal-footer">
                     <button type="button" id="Cancelar" class="btn btn-light" data-dismiss="modal">Cancelar</button>
