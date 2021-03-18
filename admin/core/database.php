@@ -8,7 +8,7 @@ class Conexion{
     $host = "localhost";
     $dbname = "neonhouseled";
     $username = "root";
-    $password = "";
+    $password = "mysql";
     try {
         $this->db = new PDO("mysql:host=$host;dbname=$dbname",$username,$password);
     } catch (PDOException $th) {
