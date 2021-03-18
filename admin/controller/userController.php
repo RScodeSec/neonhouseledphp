@@ -157,11 +157,20 @@ class UserController extends Usuario {
                                ´<img src='../imgGallery/$iganes' alt='Imagen galleria'>´
                                <h4 class='subtitulo-product'>
                                ".$p['descripcion']."
+<<<<<<< HEAD
                                 </h4>
                            </figure>
                            
 
                        </article> <br>";
+=======
+                           </h4>
+                               </figure>
+                         
+
+                       </article>
+                       <br>";
+>>>>>>> 5d69113e283b3a185dcbde5b6da2cd2921866774
        }
        echo $articles;
 

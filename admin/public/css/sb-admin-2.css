@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #858796;
   text-align: left;
-  background-color: #fff;
+  background-color:#fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9756,6 +9756,7 @@ a:focus {
 }
 
 #wrapper {
+
   display: flex;
 }
 
@@ -9767,6 +9768,7 @@ a:focus {
 
 #wrapper #content-wrapper #content {
   flex: 1 0 auto;
+  background-color: #f2f2f2;
 }
 
 .container,
