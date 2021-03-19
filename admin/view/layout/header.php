@@ -184,7 +184,7 @@
                         
 
                         <div class="topbar-divider d-none d-sm-block"></div>
-                        <a href="../controller/userController.php?action=logout" class="btn btn-info btn-lg">
+                        <a href="../controller/userController.php?action=logout" class="btn btnSalir">
                             <span class="glyphicon glyphicon-log-out"></span> Cerrar Sesion
                         </a>
 
