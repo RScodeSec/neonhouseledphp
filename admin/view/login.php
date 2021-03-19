@@ -157,7 +157,7 @@
         <div class="header-logo">
           <a href="../index.php"><img
             src="https://firebasestorage.googleapis.com/v0/b/untels-simulacion.appspot.com/o/logo.webp?alt=media&token=c1836a6e-d7f3-4159-a686-2b500e080d37"
-            />/a>
+            />
           </a>
         </div>
         <div class="header-info">
