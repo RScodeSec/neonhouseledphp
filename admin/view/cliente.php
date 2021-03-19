@@ -9,7 +9,7 @@ if(empty($_SESSION['username'])){
 require_once "layout/header.php";
 ?>
 <div class="container">
-    <h2>Mostrando Galeria para: <?php echo  $_SESSION['username'];?> </h2>
+    <h2>Bienvenido Usuario: <?php echo  $_SESSION['username'];?></h2>
 </div>
 <input type="hidden" id="identgallery" value="<?php echo  $_SESSION['username'];?>">
 

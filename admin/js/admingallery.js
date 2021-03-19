@@ -21,7 +21,6 @@ $(function () {
 			{ data: "descripcion" },
 			{ data: null },
 		],
-        
 		columnDefs: [
             {
                 "targets": -3,
@@ -52,12 +51,17 @@ $(function () {
             url: "../controller/userController.php",
             data: data,
             success: function(response){
-                if (response == 1) {
-                    $("#galeria").DataTable().ajax.reload(null, false);
-                }
+                let result = JSON.parse(response);
+                swal({
+                title: result.title,
+                text: result.text,
+                icon: result.icon
+                }).then(function() {                  
+                    $("#galeria").DataTable().ajax.reload(null, false);                    
+                }); 
                 
                 
-            }
+            },
             
         });        
         
@@ -68,6 +72,7 @@ $(function () {
 
 $("#btnNuevo1").click(function(){
     $("#formGaleria").trigger("reset");
+    $('.dropify-clear').click();
     $(".modal-header").css("background-color", "#28a745");
     $(".modal-header").css("color", "white");
     $(".modal-title").text("Nueva Imegen");          
@@ -92,13 +97,17 @@ $("#formGaleria").submit(function(e){
             processData: false,
             contentType: false,
             success: function (response) {
-                if (response == 1) {
-                    $("#modalCRUD1").modal("hide");
-                    $("#galeria").DataTable().ajax.reload(null, false);
-                    
-                }
+                let result = JSON.parse(response);
+                swal({
+                title: result.title,
+                text: result.text,
+                icon: result.icon
+                }).then(function() { 
+                    $("#modalCRUD1").modal("hide");                   
+                    $("#galeria").DataTable().ajax.reload(null, false);                    
+                }); 
                 
-            }
+            },
         });
         return false;
 	
@@ -110,19 +119,20 @@ let identgallery = $("#identgallery").val();
 let urlProds =
 	"../controller/userController.php?action=showGalleryForClient&identgallery=" + identgallery;
 $("#products-container").load(urlProds, { type: "article" }, function () {
-    
+
 
 });
 
-//:::::::::::::::::General::::::::::::::::::::
-let urlProds1 =
-	"../controller/userController.php?action=showGalleryForAll";
-$("#products-container1").load(urlProds1, { type: "article" }, function () {
-});
+//:::::::::::::::::Gestion::::::::::::::::::::
+//let urlProds1 =
+//	"../controller/userController.php?action=showGalleryForAll";
+//$("#products-container1").load(urlProds1, { type: "article" }, function () {
+//});
+
 
 //::code for disabled copy paste
 
-    $(document).ready(function() {
+    /*$(document).ready(function() {
       //Disable cut copy paste
       $('body').bind('cut copy paste', function(e) {
         e.preventDefault();
@@ -132,4 +142,4 @@ $("#products-container1").load(urlProds1, { type: "article" }, function () {
       $("body").on("contextmenu", function(e) {
         return false;
       });
-    });
+    });*/

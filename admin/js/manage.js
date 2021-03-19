@@ -1,10 +1,8 @@
 $(function () {
 	let tableProd = $("#productosTabla").DataTable({
-        //Agregando lengauaje español
         "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
         },
-        //
 		scrollX: false,
 		dom: '<"header__main"<"search"f>>t<"header__main"ip>',
 		lengthChange: false,
@@ -75,12 +73,16 @@ $(function () {
             url: "../controller/userController.php",
             data: data,
             success: function(response){
-                if (response == 1) {
-                    $("#productosTabla").DataTable().ajax.reload(null, false);
-                }
+                let result = JSON.parse(response);
+                swal({
+                title: result.title,
+                text: result.text,
+                icon: result.icon
+                }).then(function() {                    
+                    $("#productosTabla").DataTable().ajax.reload(null, false);                    
+                });               
                 
-                
-            }
+            },
             
         });        
         
@@ -88,16 +90,7 @@ $(function () {
     
     
 });
-function mensaje(response){
-    if(response ==0){
-        swal("Intente Nuevamente!", "Error en el Servidor", "error");  
-    }
-    else{
-        swal("Exitoso!", "Registro", "success"); 
 
-    }
-      
-}
 
 $("#formPersonas").submit(function(e){
     e.preventDefault();
@@ -122,12 +115,15 @@ $("#formPersonas").submit(function(e){
         url: "../controller/userController.php",
         data: data,
         success: function(response){
-
-            if (response == 1) {
-                $("#modalCRUD").modal("hide");
-                $("#productosTabla").DataTable().ajax.reload(null, false);
-            }
-            
+            let result = JSON.parse(response);
+            swal({
+                title: result.title,
+                text: result.text,
+                icon: result.icon
+                }).then(function() {                    
+                    $("#modalCRUD").modal("hide");
+                    $("#productosTabla").DataTable().ajax.reload(null, false);                    
+                });
 
         },    
     });
@@ -136,7 +132,7 @@ $("#formPersonas").submit(function(e){
     
 });
 
-$(document).on("click", "#close", function(){
+/*$(document).on("click", "#close", function(){
     $("#id").empty();
 });
 $(document).on("click", "#Cancelar", function(){
@@ -144,4 +140,4 @@ $(document).on("click", "#Cancelar", function(){
 });
 $(document).on("click", "#btnGuardar", function(){
     $("#id").empty();
-});
+});*/

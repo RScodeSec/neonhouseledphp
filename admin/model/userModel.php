@@ -80,7 +80,7 @@ class Usuario{
     protected function showuser()
     {
         $ic = new Conexion();
-        $sql = "SELECT id, nombres FROM users ";
+        $sql = "SELECT id, nombres FROM users WHERE user_level='2' AND status='1' ";
         $consulta = $ic->db->prepare($sql);
         $consulta->execute();
         $objetoConsulta = $consulta->fetchAll(PDO::FETCH_OBJ);

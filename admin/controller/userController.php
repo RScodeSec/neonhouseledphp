@@ -81,11 +81,13 @@ class UserController extends Usuario {
         $this->telefono = $telefono;
         if($aoption==0){            
             $enterUser = $this->insertUser();
-            echo  $enterUser ? 1: 0;
+            echo $enterUser ? json_encode(['title' => 'Perfecto!', 'text' => 'Usuario agregado Correctamente','icon' => 'success']):
+            json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Agregar al Usuario','icon' => 'error']);
         }
         else{
             $update = $this->UpdateUser();
-            echo  $update ? 1: 0;
+            echo $update ? json_encode(['title' => 'Perfecto!', 'text' => 'Usuario Actualizado Correctamente','icon' => 'success']):
+            json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Actualizar al Usuario','icon' => 'error']);
 
         }
 
@@ -96,7 +98,8 @@ class UserController extends Usuario {
     {
         $this->id = $id;
         $delete = $this->userdelete();
-        echo  $delete ? 1: 0;
+        echo $delete ? json_encode(['title' => 'Perfecto!', 'text' => 'Usuario Eliminado Correctamente','icon' => 'success']):
+        json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Eliminar al Usuario','icon' => 'error']);
         
     }
     //________________________________________________________________________
@@ -119,7 +122,8 @@ class UserController extends Usuario {
         $this->idcliente = $idcliente;
         $this->image = $newname;
         $gallery = $this->inserGallerys();
-        echo  $gallery ? 1: 0;
+        echo $gallery ? json_encode(['title' => 'Perfecto!', 'text' => 'Galeria Agregado Correctamente','icon' => 'success']):
+        json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Agregar Galeria','icon' => 'error']);
     }
 
 
@@ -134,7 +138,8 @@ class UserController extends Usuario {
     {
         $this->idgallery = $id;
         $delete = $this->deleteYouGallery();
-        echo  $delete ? 1: 0;
+        echo $delete ? json_encode(['title' => 'Perfecto!', 'text' => 'Galeria Eliminado Correctamente','icon' => 'success']):
+        json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Eliminar Galeria','icon' => 'error']);
         
     }
     //::::::::::::client::::::::::::::::
@@ -152,12 +157,11 @@ class UserController extends Usuario {
                                ´<img src='../imgGallery/$iganes' alt='Imagen galleria'>´
                                <h4 class='subtitulo-product'>
                                ".$p['descripcion']."
-                           </h4>
-                               </figure>
-                         
+                                </h4>
+                           </figure>
+                           
 
-                       </article>
-                       <br>";
+                       </article> <br>";
        }
        echo $articles;
 
