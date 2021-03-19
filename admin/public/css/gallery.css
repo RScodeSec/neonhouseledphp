@@ -161,6 +161,7 @@
   }
   .img-product img {
     max-width: 100%;
+    min-height: 100%;
   }
   /* .btnSalir{
     width: 100%;
@@ -191,7 +192,7 @@
     margin-top: 20px;
   }
   .img-product img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
   }
 }
