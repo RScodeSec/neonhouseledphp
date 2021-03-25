@@ -18,7 +18,7 @@
 <?php require_once "layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">PANADERÍA</h2>
+        <h2 class="categoria1__titulo ">PANADERÍA Y PASTELERÍA</h2>
 
 
         <div class="overlay" id="overlay">
