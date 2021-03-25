@@ -124,37 +124,37 @@
         <div class="services-items-container">
             <div class="services-item">
                 <figure class="img-item-container">
-                    <img src="public/imagenes/index/arquitectura.webp" alt="">
+                    <img src="public/imagenes/index/arquitectura comercial.webp" alt="">
                 </figure>
                 <h3>Arquitectura comercial</h3>
             </div>
             <div class="services-item">
                 <figure class="img-item-container">
-                    <img src="public/imagenes/index/mobiliaria.webp" alt="">
+                    <img src="public/imagenes/index/fabricacion mobiliaria.webp" alt="">
                 </figure>
                 <h3>Fabricación mobiliaria</h3>
             </div>
             <div class="services-item">
                 <figure class="img-item-container">
-                    <img src="public/imagenes/index/remodelacion.webp" alt="">
+                    <img src="public/imagenes/index/decoracion y remodelacion.webp" alt="">
                 </figure>
                 <h3>Decoración y remodelación</h3>
             </div>
             <div class="services-item">
                 <figure class="img-item-container">
-                    <img src="public/imagenes/index/neon.webp" alt="">
+                    <img src="public/imagenes/index/fabricacion neon.webp" alt="">
                 </figure>
                 <h3>Fabricación neón</h3>
             </div>
             <div class="services-item">
                 <figure class="img-item-container">
-                    <img src="public/imagenes/index/letreros.webp" alt="">
+                    <img src="public/imagenes/index/letreros luminosos.webp" alt="">
                 </figure>
                 <h3>Letreros luminosos</h3>
             </div>
             <div class="services-item">
                 <figure class="img-item-container">
-                    <img src="public/imagenes/index/paneles.webp" alt="">
+                    <img src="public/imagenes/index/paneles led.webp" alt="">
                 </figure>
                 <h3>Paneles LED</h3>
             </div>
@@ -171,49 +171,49 @@
         <h2 class="categoria__titulo titulo">CATEGORÍAS</h2>
         <div class="categoria__section">
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_1" src="public/imagenes/AnyConv.com__Cevicheria.webp" alt="">
+                <img class="categoria__img" id="imagen_1" src="public/imagenes/cevicheria_c.webp" alt="">
                 <figcaption class="categoria__desc">CEVICHERÍA</figcaption>
             </figure>
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_2" src="public/imagenes/AnyConv.com__Sangucheria.webp" alt="">
+                <img class="categoria__img" id="imagen_2" src="public/imagenes/sangucheria_c.webp" alt="">
                 <figcaption class="categoria__desc">SANGUCHERÍA</figcaption>
             </figure>
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_3" src="public/imagenes/AnyConv.com__Discoteca.webp" alt="">
+                <img class="categoria__img" id="imagen_3" src="public/imagenes/discoteca_c.webp" alt="">
                 <figcaption class="categoria__desc">DISCOTECA</figcaption>
             </figure>
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_4" src="public/imagenes/AnyConv.com__Polleria.webp" alt="">
+                <img class="categoria__img" id="imagen_4" src="public/imagenes/polleria_c.webp" alt="">
                 <figcaption class="categoria__desc">POLLERÍA</figcaption>
             </figure>
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_5" src="public/imagenes/AnyConv.com__Restaurante.webp" alt="">
+                <img class="categoria__img" id="imagen_5" src="public/imagenes/restaurante_c.webp" alt="">
                 <figcaption class="categoria__desc">RESTAURANTE</figcaption>
             </figure>
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_6" src="public/imagenes/AnyConv.com__Bar.webp" alt="">
+                <img class="categoria__img" id="imagen_6" src="public/imagenes/bar_c.webp" alt="">
                 <figcaption class="categoria__desc">BAR</figcaption>
             </figure>
 
 
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_7" src="public/imagenes/AnyConv.com__Fast Food.webp" alt="">
+                <img class="categoria__img" id="imagen_7" src="public/imagenes/Fast Food_c.webp" alt="">
                 <figcaption class="categoria__desc">FAST FOOD</figcaption>
             </figure>
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_8" src="public/imagenes/AnyConv.com__Salon y Spa.webp" alt="">
+                <img class="categoria__img" id="imagen_8" src="public/imagenes/salon y spa.webp" alt="">
                 <figcaption class="categoria__desc">SALON SPA Y BARBERÍA</figcaption>
             </figure>
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_9" src="public/imagenes/AnyConv.com__Hogar.webp " alt="">
+                <img class="categoria__img" id="imagen_9" src="public/imagenes/hogar_c.webp " alt="">
                 <figcaption class="categoria__desc">HOGAR</figcaption>
             </figure>
 
@@ -221,17 +221,17 @@
 
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen_10" src="public/imagenes/AnyConv.com__Pizzeria.webp" alt="">
+                <img class="categoria__img" id="imagen_10" src="public/imagenes/pizzeria_c.webp" alt="">
                 <figcaption class="categoria__desc">PIZZERIA</figcaption>
             </figure>
 
 
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen__11" src="public/imagenes/AnyConv.com__Panaderia.webp" alt="">
+                <img class="categoria__img" id="imagen__11" src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
                 <figcaption class="categoria__desc">PANADERIA Y PASTELERIA</figcaption>
             </figure>
             <figure class="categoria__imagen">
-                <img class="categoria__img" id="imagen__12" src="public/imagenes/AnyConv.com__Cafeteria y Jugueria.webp" alt="">
+                <img class="categoria__img" id="imagen__12" src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
                 <figcaption class="categoria__desc">CAFETERIA Y JUGUERIA</figcaption>
             </figure>
 
@@ -253,149 +253,149 @@
        
            <footer class="page1-footer">
                 <center>  <p class="marquesina">
-                <span><a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <span><a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
-                <a  ><img src="public/imagenes/auspicios/nhl-vladi-logo-01.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hilton-logo-02.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-sagafalabella-03.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-touloulause-04.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-hotel-colors-05.webp"   class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-petro-peru-06.webp"  class="icon-img-empresa"></a>
-                <a ><img src="public/imagenes/auspicios/nhl-entel-logo-07.webp"  class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-cristal-logo-08.webp"   class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-backus-09.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-olympuz-10.webp"   
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-Ripley-11.webp"   
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa"></a>
-                <a ><img  src="public/imagenes/auspicios/nhl-utilex-12.webp"   
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa"></a>
                 </span>
                 </p>
@@ -436,18 +436,18 @@
             <a href="#" id="x" class="overlay__item x">X</a>
             <a href="#" id="derecha" class="overlay__item right"><i class="fas fa-arrow-right"></i></a>
             <a href="#" id="isquierda" class="overlay__item left"><i class="fas fa-arrow-left"></i></a>
-            <img class="overlay__img imagen1" src="public/imagenes/CEVICHERIA.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/SANGUCHERIA.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/DISCOTECA.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/POLLERIA.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/RESTAURANTE.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/BAR.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/FAST FOOD.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/SALON SPA y BARBERIA.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/HOGAR.webp" alt="">
-            <img class="overlay__img imagen1" src="public/imagenes/PIZZERIA.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Cevichería.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Sanguchería.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Discoteca.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Pollería.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Restaurante.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Bar.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Fast Food.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Salon Spa y Barbería.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Hogar.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Pizzería.webp" alt="">
 
-            <img class="overlay__img imagen1" src="public/imagenes/PANADERIA y PASTELERIA.webp" alt="">
+            <img class="overlay__img imagen1" src="public/imagenes/Panaderia y Pasteleria.webp" alt="">
             <img class="overlay__img imagen1" src="public/imagenes/CAFETERIA Y JUGUERIA.webp" alt="">
 
         </figure>

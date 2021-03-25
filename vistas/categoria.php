@@ -22,7 +22,7 @@
 
             <figure class="categoria1__imagen derecha">
                 <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/RESTAURANTE sin nombre.webp" alt="">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt="">
             </a>
                 <figcaption class="categoria1__desc">RESTAURANTE</figcaption>
             </figure>
@@ -30,39 +30,39 @@
 
             <figure class="categoria1__imagen">
                 <a href="cevicheria.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/CEVICHERIA sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevichería.webp" alt=""></a>
                 <figcaption class="categoria1__desc">CEVICHERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen derecha">
                 <a href="sangucheria.php">
-                <img class="categoria1__img" id="imagen_2" src="../public/imagenes/categoria/SANGUCHERIA sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_2" src="../public/imagenes/categoria/sangucheria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">SANGUCHERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="fast__food.php">
-                <img class="categoria1__img" id="imagen_7" src="../public/imagenes/categoria/FAST FOOD sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_7" src="../public/imagenes/categoria/fast food.webp" alt=""></a>
                 <figcaption class="categoria1__desc">FAST FOOD</figcaption>
             </figure>
 
             <figure class="categoria1__imagen derecha">
                 <a href="polleria.php">
-                <img class="categoria1__img" id="imagen_4" src="../public/imagenes/categoria/POLLERIA sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_4" src="../public/imagenes/categoria/polleria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">POLLERÍA</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen">
                 <a href="discoteca.php">
-                <img class="categoria1__img" id="imagen_3" src="../public/imagenes/categoria/DISCOTECA sin nombre.webp" alt="">
+                <img class="categoria1__img" id="imagen_3" src="../public/imagenes/categoria/discoteca.webp" alt="">
             </a>
                 <figcaption class="categoria1__desc">DISCOTECA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen derecha">
                 <a href="pizzeria.php">
-                <img class="categoria1__img" id="imagen_10" src="../public/imagenes/categoria/PIZZERIA sin nombre.webp" alt="">
+                <img class="categoria1__img" id="imagen_10" src="../public/imagenes/categoria/pizzeria.webp" alt="">
             </a>
                 <figcaption class="categoria1__desc">PIZZERÍA</figcaption>
             </figure>
@@ -73,7 +73,7 @@
 
             <figure class="categoria1__imagen">
                 <a href="cafeteria.php">
-                <img class="categoria1__img" id="imagen_6" src="../public/imagenes/categoria/CAFETERIA Y JUGUERIA sin nombre.webp" alt="">
+                <img class="categoria1__img" id="imagen_6" src="../public/imagenes/categoria/cafeteria.webp" alt="">
             </a>
                 <figcaption class="categoria1__desc">CAFETERÍA Y JUGUERIA</figcaption>
             </figure>
@@ -82,25 +82,25 @@
 
             <figure class="categoria1__imagen derecha">
                 <a href="panaderia.php">
-                <img class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/PANADERIA sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/panaderia.webp" alt=""></a>
                 <figcaption class="categoria1__desc">PANADERÍA Y PASTELERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="spa.php">
-                <img class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/SALON Y SPA sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/salon y spa.webp" alt=""></a>
                 <figcaption class="categoria1__desc">SALON SPA Y BARBERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen derecha">
                 <a href="bar.php">
-                <img class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/BAR sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/bar.webp" alt=""></a>
                 <figcaption class="categoria1__desc">BAR</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="hogar.php">
-                <img class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/HOGAR sin nombre.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/hogar.webp" alt=""></a>
                 <figcaption class="categoria1__desc">HOGAR</figcaption>
             </figure>
 
