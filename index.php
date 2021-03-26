@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led</title>
     <link rel="stylesheet" href="public/css/shared/header.css">
-    <link rel="stylesheet" href="public/css/shared/footer.css">
+    <link rel="preload" href="public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <!--<link rel="stylesheet" href="public/css/shared/footer.css">-->
     <link rel="stylesheet" href="public/css/shared/categoria_index.css">
-    <link rel="stylesheet" href="public/css/shared/auspicio.css">
+    <link rel="preload" href="public/css/shared/auspicio.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 </head>
 <meta
   name="description"           
@@ -491,10 +492,10 @@
         </div>
         
 
-    </footer>
-    <script type="text/javascript" src="https://kit.fontawesome.com/c702fce202.js" crossorigin="anonymous"></script>
-    <script type="text/javascript"  src="public/js/menu.js"></script>
-    <script type="text/javascript"  src="public/js/categoria.js"></script>
+    </footer>    
+    <script type="text/javascript" defer src="https://kit.fontawesome.com/c702fce202.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"  defer src="public/js/menu.js"></script>
+    <script type="text/javascript"  defer src="public/js/categoria.js"></script>
     <script src="public/js/lazysizes.min.js" async></script>
 
 </body>
