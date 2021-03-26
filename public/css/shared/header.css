@@ -9,18 +9,22 @@ a{
 @font-face {
     font-family: 'Proxima-Nova-Light';
     src: url('../../fuentes/Proxima_Nova_Light.otf');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Proxima-Nova-Regular';
     src: url('../../fuentes/Proxima_Nova_Regular.otf');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Proxima-Nova-SemiBold';
     src: url('../../fuentes/Proxima_Nova_SemiBold.otf');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Proxima-Nova-Bold';
     src: url('../../fuentes/Proxima_Nova_Bold.otf');
+    font-display: swap;
 }
 
 /* Header */
