@@ -49,7 +49,7 @@ if (isset($_POST["enviar"])) {
         $mail->Host = "mail.neonhouseled.com"; //servidor smtp, esto lo puedes dejar igual
         $mail->Port = 465; //puerto smtp de gmail, tambien lo puedes dejar igual
         $mail->Username = 'postula@neonhouseled.com';  // en local, tu correo gmail // en servidor, nombre usuario
-        $mail->Password = 'GfhHLmFNA#9O'; // en local, tu contrasena gmail //en servidor, contraseña de usuario
+        $mail->Password = 'n37qO#Ua7Dl%'; // en local, tu contrasena gmail //en servidor, contraseña de usuario
         
         if ($mail->Send())
         //echo "<script>swal('Formulario enviado exitosamente', 'le responderemos lo mas pronto posible.','success');window.location.href='../index.php';</script>";
