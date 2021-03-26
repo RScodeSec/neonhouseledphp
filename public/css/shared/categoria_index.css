@@ -214,8 +214,18 @@ display: block;
 background-color:#F5F5F5 ;
 } */
 
-
-.mapa{padding: 2rem 0;}
+.mapas{
+    width: 70%;
+    padding: auto;
+    margin: 2% auto;
+    overflow: hidden;
+}
+.mapa{
+    transition: transform .6s;
+}
+.mapa:hover{
+    transform: scale(1.4);
+}
 .mapa__link{display: block;}
 .mapa__img{
     width: 100%;
@@ -273,8 +283,9 @@ margin-left: auto;
 
 @media screen and (min-width:945px) {
     .mapa{
-        width: 70%;
-        margin: 0 auto;
+        width: 100%;
+        
+        height: 100%;
     }
 
     .overlay {
