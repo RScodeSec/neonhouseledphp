@@ -122,8 +122,8 @@ class UserController extends Usuario {
         $this->idcliente = $idcliente;
         $this->image = $newname;
         $gallery = $this->inserGallerys();
-        echo $gallery ? json_encode(['title' => 'Perfecto!', 'text' => 'Galeria Agregado Correctamente','icon' => 'success']):
-        json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Agregar Galeria','icon' => 'error']);
+        //echo $gallery ? json_encode(['title' => 'Perfecto!', 'text' => 'Galeria Agregado Correctamente','icon' => 'success']):
+        //json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Agregar Galeria','icon' => 'error']);
     }
 
 
@@ -244,20 +244,29 @@ if(isset($_GET['action']) && $_GET['action']=='showuser')
 if(isset($_POST['action']) && $_POST['action']=='isertimg')
 {
     $instanciaController = new UserController();
-    $imagenName = $_FILES['file']['name'];
+    foreach($_FILES['files']['name'] as $i =>$value){
+        $imagenTemp = $_FILES['files']['tmp_name'][$i];
+        $random = rand(0,99);
+        $folder = "../imgGallery/";
+        $imagenName = $random.date('YmdH').$_FILES['files']['name'][$i];
+        $img_path = $folder.$imagenName;
+        move_uploaded_file($imagenTemp, $img_path);
+        $instanciaController->insertgallery($_POST['descripcion'],$_POST['users'],$imagenName);
+    }
+    //$imagenName = $_FILES['file']['name'];
     
     //-------- MODIFIED NAME --------------
-    $extension = pathinfo($imagenName, PATHINFO_EXTENSION);
-    $random = rand(0,99);
-    $rename = $random.date('YmdH').$imagenName;
-    $newname = $rename;
+    //$extension = pathinfo($imagenName, PATHINFO_EXTENSION);
+    //$random = rand(0,99);
+    //$rename = $random.date('YmdH').$imagenName;
+    //$newname = $rename;
     //for obtain extension of image .'.'.$extension
-    $imageurl = "../imgGallery/" . $newname;
+    //$imageurl = "../imgGallery/" . $newname;
 
-    $imagenTemp = $_FILES['file']['tmp_name'];
-    move_uploaded_file($imagenTemp, $imageurl);
     
-    $instanciaController->insertgallery($_POST['descripcion'],$_POST['users'],$newname);
+    //move_uploaded_file($imagenTemp, $imageurl);
+    
+    //$instanciaController->insertgallery1($_POST['descripcion'],$_POST['users'],$newname);
 
 }
 

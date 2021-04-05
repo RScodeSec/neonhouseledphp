@@ -72,7 +72,7 @@ $(function () {
 
 $("#btnNuevo1").click(function(){
     $("#formGaleria").trigger("reset");
-    $('.dropify-clear').click();
+    //$('.dropify-clear').click();
     $(".modal-header").css("background-color", "#28a745");
     $(".modal-header").css("color", "white");
     $(".modal-title").text("Nueva Imegen");          
@@ -82,26 +82,32 @@ $("#btnNuevo1").click(function(){
 });
 
 $("#formGaleria").submit(function(e){
-		var fdata = new FormData();
-        let descripcion = $('#descripcion').val();
-        let users = $('#users').val();
-        let file = $('#file')[0].files[0];
-        fdata.append('descripcion', descripcion);
-        fdata.append('users', users);
-        fdata.append('file', file);
+		var fdata = new FormData(this);
+        //let descripcion = $('#descripcion').val();
+        //let users = $('#users').val();
+        //let file = $('#file')[0].files[0];
+        //fdata.append('descripcion', descripcion);
+        //fdata.append('users', users);
+        //fdata.append('file', file);
         fdata.append('action', 'isertimg');
+        //console.log(fdata);
+        //console.log( fdata.get('action') );
+        //console.log( fdata.get('descripcion') );
+        //console.log( fdata.get('users') );
+        console.log( fdata.get('files') );
         $.ajax({
             type: "POST",
             url: "../controller/userController.php",
             data: fdata,
             processData: false,
             contentType: false,
+            cache: false,
             success: function (response) {
-                let result = JSON.parse(response);
+                //let result = JSON.parse(response);
                 swal({
-                title: result.title,
-                text: result.text,
-                icon: result.icon
+                title: "Perfecto!",
+                text: "Galeria Agregado Correctamente",
+                icon: "success"
                 }).then(function() { 
                     $("#modalCRUD1").modal("hide");                   
                     $("#galeria").DataTable().ajax.reload(null, false);                    
