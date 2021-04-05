@@ -429,7 +429,7 @@
 
         <div class="mapas">
         <figure class="mapa">
-            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" rel="noreferrer" target="_blank"><img class="mapa__img" src="public/imagenes/as.webp" width="942"    alt=""></a>
+            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" rel="noreferrer" target="_blank"><img class="mapa__img" src="public/imagenes/as.webp"  alt=""></a>
         </figure>
         </div>
         
