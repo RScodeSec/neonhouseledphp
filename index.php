@@ -429,7 +429,7 @@
 
         <div class="mapas">
         <figure class="mapa">
-            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" rel="noreferrer" target="_blank"><img class="mapa__img" src="public/imagenes/as.webp"  alt=""></a>
+            <a class="mapa__link" href="https://www.google.com/maps/place/Neon+House+Led/@-12.057222,-77.025545,19z/data=!4m5!3m4!1s0x0:0xb89ce2c672f2aa0c!8m2!3d-12.0571663!4d-77.0256203?hl=es" rel="noreferrer" target="_blank"><img class="mapa__img" src="public/imagenes/as.webp" width="942"    alt=""></a>
         </figure>
         </div>
         
@@ -443,16 +443,16 @@
             <a href="#" id="x" class="overlay__item x">X</a>
             <a href="#" id="derecha" class="overlay__item right"><i class="fas fa-arrow-right"></i></a>
             <a href="#" id="isquierda" class="overlay__item left"><i class="fas fa-arrow-left"></i></a>
-            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Cevichería.webp" alt="">
-            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Sanguchería.webp" alt="">
+            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Cevicheria.webp" alt="">
+            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Sangucheria.webp" alt="">
             <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Discoteca.webp" alt="">
-            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Pollería.webp" alt="">
+            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Polleria.webp" alt="">
             <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Restaurante.webp" alt="">
             <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Bar.webp" alt="">
             <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Fast Food.webp" alt="">
-            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Salon Spa y Barbería.webp" alt="">
+            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Salon Spa y Barberia.webp" alt="">
             <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Hogar.webp" alt="">
-            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Pizzería.webp" alt="">
+            <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Pizzeria.webp" alt="">
 
             <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Panaderia y Pasteleria.webp" alt="">
             <img class="overlay__img imagen1 lazyload" data-src="public/imagenes/Cafeteria y jugueria.webp" alt="">
