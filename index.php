@@ -73,22 +73,22 @@
 <section class="hero-container">
         <article id="slider">
             <div id="carouselExampleControls" class="carousel_slide" data-ride="carousel">
-                <!-- Slider 1 -->
+                <!-- Slider 1
                 <figure class="img-container">
                     <img src="public/imagenes/index/sliders/slider1.webp" alt="">
                 </figure>
                 <!-- Slider 2 -->
-                <figure class="img-container">
+                <!-- <figure class="img-container">
                     <img src="public/imagenes/index/sliders/slider2.webp" alt="">
                 </figure>
                 <!-- Slider 3 -->
-                <figure class="img-container">
+                <!-- <figure class="img-container">
                     <img data-src="public/imagenes/index/sliders/slider3.webp" class="lazyload" alt="">
                 </figure>
                 <!-- Slider 4 -->
-                <figure class="img-container">
+                <!-- <figure class="img-container">
                     <img data-src="public/imagenes/index/sliders/slider4.webp" class="lazyload" alt="">
-                </figure>
+                </figure> --> --> --> -->
             </div>
         </article>
         <div class="title-hero-container">
