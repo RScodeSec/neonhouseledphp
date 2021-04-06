@@ -92,7 +92,7 @@
                 <!-- Slider 4 -->
                 <!-- <figure class="img-container">
                     <img data-src="public/imagenes/index/sliders/slider4.webp" class="lazyload" alt="">
-                </figure> --> --> --> -->
+                </figure> -->
             </div>
         </article>
         <div class="title-hero-container">

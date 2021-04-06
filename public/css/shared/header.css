@@ -171,8 +171,8 @@ a{
     .carousel_slide{
         width: 100%;
         height: 600px;
-        background-image: url('../../imagenes/index/sliders/slider1.webp');
-       
+        background-color: #f2f2f2;/*comentar eso */
+        /* background-image: url('../../imagenes/index/sliders/slider1.webp');  */
         position: relative;
         animation: slide_animation 30s infinite ease-in;
         /* -webkit-animation-name: slide_animation ;
@@ -184,13 +184,16 @@ a{
         /* Animación slider */
         @keyframes slide_animation{
             25%{
-                background-image: url('../../imagenes/index/sliders/slider2.webp');
+                background-image: url('../../imagenes/index/sliders/slider1.webp');
                 }
                 50%{
-                    background-image: url('../../imagenes/index/sliders/slider3.webp');
+                    background-image: url('../../imagenes/index/sliders/slider2.webp');
                 }
                 75%{
-                    background-image: url('../../imagenes/index/sliders/slider4.webp');
+                    background-image: url('../../imagenes/index/sliders/slider3.webp');
+                }
+                100%{
+                    background-image: url('../../imagenes/index/sliders/slider4.webp'); /*COMENTAR EL 100% */
                 }
             /* 7%{left: 300%;}
             14%{left: 200%;}
