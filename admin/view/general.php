@@ -56,29 +56,31 @@ require_once "layout/header.php";
             </div>
         <form id="formGaleriaGestion" enctype="multipart/form-data">    
             <div class="modal-body">
-                <input type="text" id="id" value="0" hidden>
+                <input type="text" id="id" name="id" value="0" hidden>
                 <div class="form-group">
                     <label for="descripcion" class="col-form-label">Descripcion:</label>
-                    <input type="text" class="form-control" id="descripcion" required>
+                    <input type="text" class="form-control" name="descripcion" id="descripcion" required>
                 </div>
 
                 <div class="form-group">
                     <label for="user" class="col-form-label">Para Nombre:</label>
                         <br>
-                        <select id ="users" class="form-select form-select-lg mb-3 user" >
+                        <select id ="users" name="users" class="form-select form-select-lg mb-3 user" >
                            
                         </select>                    
                 </div>
 
                 <div class="form-group">
-                    <label for="descripcion" class="col-form-label">Imagen:</label>
-                    <input  neme="file" type="file" id="file" class="dropify_" data-default-file="" accept=".jpg , .png , .webp" required>
+                    <div class="custom-file">
+                        <label for="descripcion" class="col-form-label">Imagen:</label><br>
+                        <input  name="files[]" type="file" id="file"  accept=".jpg , .png , .webp" multiple required>
                     
+                    </div>
                 </div>
-                <div class="row">
+                <!--<div class="row">
                     <div id="file_" class="col-md-3"></div>
                 
-                </div>
+                </div>-->
 
             </div>
             <div class="modal-footer">

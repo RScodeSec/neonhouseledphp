@@ -33,8 +33,8 @@ $(function () {
 });//______________________________________________________________________
 
 $("#btnNuevo12").click(function(){
-    $("#formGaleria").trigger("reset");
-    $('.dropify-clear').click();
+    $("#formGaleriaGestion").trigger("reset");
+    //$('.dropify-clear').click();
     $(".modal-header").css("background-color", "#28a745");
     $(".modal-header").css("color", "white");
     $(".modal-title").text("Nueva Imegen");          
@@ -44,13 +44,13 @@ $("#btnNuevo12").click(function(){
 });
 
 $("#formGaleriaGestion").submit(function(e){
-		var fdata = new FormData();
-        let descripcion = $('#descripcion').val();
-        let users = $('#users').val();
-        let file = $('#file')[0].files[0];
-        fdata.append('descripcion', descripcion);
-        fdata.append('users', users);
-        fdata.append('file', file);
+		var fdata = new FormData(this);
+        //let descripcion = $('#descripcion').val();
+        //let users = $('#users').val();
+        //let file = $('#file')[0].files[0];
+        //fdata.append('descripcion', descripcion);
+        //fdata.append('users', users);
+       // fdata.append('file', file);
         fdata.append('action', 'isertimg');
         console.log(fdata)
         $.ajax({
@@ -59,12 +59,13 @@ $("#formGaleriaGestion").submit(function(e){
             data: fdata,
             processData: false,
             contentType: false,
+            cache: false,
             success: function (response) {
-                let result = JSON.parse(response);
+                //let result = JSON.parse(response);
                 swal({
-                title: result.title,
-                text: result.text,
-                icon: result.icon
+                    title: "Perfecto!",
+                    text: "Galeria Agregado Correctamente",
+                    icon: "success"
                 }).then(function() { 
                     $("#modalCRUD12").modal("hide");                   
                     $("#galeriaGestion").DataTable().ajax.reload(null, false);                    
